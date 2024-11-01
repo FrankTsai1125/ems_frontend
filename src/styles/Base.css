@@ -1,0 +1,17 @@
+.base-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.base-content {
+    display: flex;
+    flex: 1;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    overflow-y: auto;
+}

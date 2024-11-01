@@ -1,0 +1,13 @@
+
+.container-fluid {
+    background-image: url('../assets/images/background/green.jpg'); /* 確保路徑正確 */
+    background-size: cover;       /* 確保背景圖片覆蓋整個容器 */
+    background-position: center;   /* 置中背景圖片 */
+    background-repeat: no-repeat;  /* 不重複背景圖片 */
+    height: 100vh;                /* 設定高度以覆蓋整個視窗 */
+}
+
+.center-text {
+    text-align: center; /* 將文本置中 */
+    margin-top: 16px; /* 根據需要添加上邊距 */
+}
